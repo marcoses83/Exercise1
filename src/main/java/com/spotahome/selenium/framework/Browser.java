@@ -68,7 +68,6 @@ public class Browser {
 
     private WebDriver createFirefoxDriver() {
         FirefoxOptions options = new FirefoxOptions();
-        options.addArguments("start-maximized");
         //Setup desired options here
 
         return new FirefoxDriver(options);
