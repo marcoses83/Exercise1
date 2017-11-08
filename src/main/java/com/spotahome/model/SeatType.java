@@ -1,9 +1,5 @@
 package com.spotahome.model;
 
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonSetter;
-
 public class SeatType {
     private Seat seat;
 
